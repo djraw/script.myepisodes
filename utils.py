@@ -37,7 +37,7 @@ def is_excluded(filename):
 
     logger.debug("_is_excluded(): Check if '%s' is in an excluded path.", filename)
 
-    for index in range(1, 4):
+    for index in range(1, 10):
         if index == 1:
             index = ''
         exclude_option = getSettingAsBool("ExcludePathOption{}".format(index))
